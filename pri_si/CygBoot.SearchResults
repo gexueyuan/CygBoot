@@ -1,0 +1,1213 @@
+---- uint8_t Matches (1231 in 108 files) ----
+Arm_biquad_cascade_df1_32x64_init_q31.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t numStages,
+Arm_biquad_cascade_df1_32x64_init_q31.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t postShift)
+Arm_biquad_cascade_df1_init_f32.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t numStages,
+Arm_biquad_cascade_df1_init_q15.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t numStages,
+Arm_biquad_cascade_df1_init_q31.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t numStages,
+arm_biquad_cascade_df2T_init_f32.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t numStages,
+Arm_cfft_f32.c (library\cmsis\dsp_lib\source\transformfunctions):   uint8_t ifftFlag,
+Arm_cfft_f32.c (library\cmsis\dsp_lib\source\transformfunctions):   uint8_t bitReverseFlag)
+Arm_cfft_radix2_init_f32.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t ifftFlag,
+Arm_cfft_radix2_init_f32.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t bitReverseFlag)
+Arm_cfft_radix2_init_q15.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t ifftFlag,
+Arm_cfft_radix2_init_q15.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t bitReverseFlag)
+Arm_cfft_radix2_init_q31.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t ifftFlag,
+Arm_cfft_radix2_init_q31.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t bitReverseFlag)
+Arm_cfft_radix4_init_f32.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t ifftFlag,
+Arm_cfft_radix4_init_f32.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t bitReverseFlag)
+Arm_cfft_radix4_init_q15.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t ifftFlag,
+Arm_cfft_radix4_init_q15.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t bitReverseFlag)
+Arm_cfft_radix4_init_q31.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t ifftFlag,
+Arm_cfft_radix4_init_q31.c (library\cmsis\dsp_lib\source\transformfunctions):  uint8_t bitReverseFlag)
+Arm_fir_decimate_init_f32.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t M,
+Arm_fir_decimate_init_q15.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t M,
+Arm_fir_decimate_init_q31.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t M,
+Arm_fir_interpolate_init_f32.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t L,
+Arm_fir_interpolate_init_q15.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t L,
+Arm_fir_interpolate_init_q31.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t L,
+Arm_lms_norm_init_q15.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t postShift)
+Arm_lms_norm_init_q31.c (library\cmsis\dsp_lib\source\filteringfunctions):  uint8_t postShift)
+Arm_math.h (library\cmsis\include):    uint8_t postShift;       /**< Additional shift, in bits, applied to each output sample. */
+Arm_math.h (library\cmsis\include):  uint8_t numStages,
+Arm_math.h (library\cmsis\include):  uint8_t numStages,
+Arm_math.h (library\cmsis\include):  uint8_t numStages,
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlag;                /**< flag that selects forward (ifftFlag=0) or inverse (ifftFlag=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlag;          /**< flag that enables (bitReverseFlag=1) or disables (bitReverseFlag=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlag;                /**< flag that selects forward (ifftFlag=0) or inverse (ifftFlag=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlag;          /**< flag that enables (bitReverseFlag=1) or disables (bitReverseFlag=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlag;                /**< flag that selects forward (ifftFlag=0) or inverse (ifftFlag=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlag;          /**< flag that enables (bitReverseFlag=1) or disables (bitReverseFlag=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlag;                /**< flag that selects forward (ifftFlag=0) or inverse (ifftFlag=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlag;          /**< flag that enables (bitReverseFlag=1) or disables (bitReverseFlag=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlag;                  /**< flag that selects forward (ifftFlag=0) or inverse (ifftFlag=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlag;            /**< flag that enables (bitReverseFlag=1) or disables (bitReverseFlag=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlag;                  /**< flag that selects forward (ifftFlag=0) or inverse (ifftFlag=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlag;            /**< flag that enables (bitReverseFlag=1) or disables (bitReverseFlag=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag,
+Arm_math.h (library\cmsis\include):  uint8_t bitReverseFlag);
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlagR;                        /**< flag that selects forward (ifftFlagR=0) or inverse (ifftFlagR=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlagR;                      /**< flag that enables (bitReverseFlagR=1) or disables (bitReverseFlagR=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlagR;                          /**< flag that selects forward (ifftFlagR=0) or inverse (ifftFlagR=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlagR;                        /**< flag that enables (bitReverseFlagR=1) or disables (bitReverseFlagR=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):    uint8_t ifftFlagR;                          /**< flag that selects forward (ifftFlagR=0) or inverse (ifftFlagR=1) transform. */
+Arm_math.h (library\cmsis\include):    uint8_t bitReverseFlagR;                    /**< flag that enables (bitReverseFlagR=1) or disables (bitReverseFlagR=0) bit reversal of output. */
+Arm_math.h (library\cmsis\include):  uint8_t ifftFlag);
+Arm_math.h (library\cmsis\include):    uint8_t M;                      /**< decimation factor. */
+Arm_math.h (library\cmsis\include):    uint8_t M;                  /**< decimation factor. */
+Arm_math.h (library\cmsis\include):    uint8_t M;                          /**< decimation factor. */
+Arm_math.h (library\cmsis\include):  uint8_t M,
+Arm_math.h (library\cmsis\include):  uint8_t M,
+Arm_math.h (library\cmsis\include):  uint8_t M,
+Arm_math.h (library\cmsis\include):    uint8_t L;                      /**< upsample factor. */
+Arm_math.h (library\cmsis\include):    uint8_t L;                      /**< upsample factor. */
+Arm_math.h (library\cmsis\include):    uint8_t L;                     /**< upsample factor. */
+Arm_math.h (library\cmsis\include):  uint8_t L,
+Arm_math.h (library\cmsis\include):  uint8_t L,
+Arm_math.h (library\cmsis\include):  uint8_t L,
+Arm_math.h (library\cmsis\include):    uint8_t numStages;       /**< number of 2nd order stages in the filter.  Overall order is 2*numStages. */
+Arm_math.h (library\cmsis\include):    uint8_t postShift;       /**< additional shift, in bits, applied to each output sample. */
+Arm_math.h (library\cmsis\include):  uint8_t numStages,
+Arm_math.h (library\cmsis\include):  uint8_t postShift);
+Arm_math.h (library\cmsis\include):    uint8_t numStages;         /**< number of 2nd order stages in the filter.  Overall order is 2*numStages. */
+Arm_math.h (library\cmsis\include):  uint8_t numStages,
+Arm_math.h (library\cmsis\include):    uint8_t postShift;    /**< bit shift applied to coefficients. */
+Arm_math.h (library\cmsis\include):  uint8_t postShift);
+Arm_math.h (library\cmsis\include):    uint8_t postShift;   /**< bit shift applied to coefficients. */
+Arm_math.h (library\cmsis\include):  uint8_t postShift);
+Arm_rfft_fast_f32.c (library\cmsis\dsp_lib\source\transformfunctions):uint8_t ifftFlag)
+Arm_rfft_init_f32.c (library\cmsis\dsp_lib\source\transformfunctions):  S->ifftFlagR = (uint8_t) ifftFlagR;
+Arm_rfft_init_f32.c (library\cmsis\dsp_lib\source\transformfunctions):  S->bitReverseFlagR = (uint8_t) bitReverseFlag;
+Arm_rfft_init_q15.c (library\cmsis\dsp_lib\source\transformfunctions):  S->ifftFlagR = (uint8_t) ifftFlagR;
+Arm_rfft_init_q15.c (library\cmsis\dsp_lib\source\transformfunctions):  S->bitReverseFlagR = (uint8_t) bitReverseFlag;
+Arm_rfft_init_q31.c (library\cmsis\dsp_lib\source\transformfunctions):  S->ifftFlagR = (uint8_t) ifftFlagR;
+Arm_rfft_init_q31.c (library\cmsis\dsp_lib\source\transformfunctions):  S->bitReverseFlagR = (uint8_t) bitReverseFlag;
+Arm_shift_q15.c (library\cmsis\dsp_lib\source\basicmathfunctions):  uint8_t sign;                                  /* Sign of shiftBits */
+Arm_shift_q31.c (library\cmsis\dsp_lib\source\basicmathfunctions):  uint8_t sign = (shiftBits & 0x80);             /* Sign of shiftBits */
+Arm_shift_q7.c (library\cmsis\dsp_lib\source\basicmathfunctions):  uint8_t sign;                                  /* Sign of shiftBits */
+Common.c (drives):void Int2Str(uint8_t* str, int32_t intnum)
+Common.c (drives):uint32_t Str2Int(uint8_t *inputstr, int32_t *intnum)
+Common.c (drives):  uint8_t inputstr[16];
+Common.c (drives):uint32_t SerialKeyPressed(uint8_t *key)
+Common.c (drives):    *key = (uint8_t)EVAL_COM1->DR;
+Common.c (drives):uint8_t GetKey(void)
+Common.c (drives):  uint8_t key = 0;
+Common.c (drives):    if (SerialKeyPressed((uint8_t*)&key)) break;
+Common.c (drives):void SerialPutChar(uint8_t c)
+Common.c (drives):void Serial_PutString(uint8_t *s)
+Common.c (drives):void GetInputString (uint8_t * buffP)
+Common.c (drives):  uint8_t c = 0;
+Common.h (include):#define SerialPutString(x) Serial_PutString((uint8_t*)(x))
+Common.h (include):void Int2Str(uint8_t* str,int32_t intnum);
+Common.h (include):uint32_t Str2Int(uint8_t *inputstr,int32_t *intnum);
+Common.h (include):uint32_t SerialKeyPressed(uint8_t *key);
+Common.h (include):uint8_t GetKey(void);
+Common.h (include):void SerialPutChar(uint8_t c);
+Common.h (include):void Serial_PutString(uint8_t *s);
+Common.h (include):void GetInputString(uint8_t * buffP);
+Core_cm3.h (library\cmsis\include):  __IO uint8_t  IP[240];                 /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
+Core_cm3.h (library\cmsis\include):  __IO uint8_t  SHP[12];                 /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
+Core_cm3.h (library\cmsis\include):    __O  uint8_t    u8;                  /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 8-bit                   */
+Core_cm3.h (library\cmsis\include):    ITM->PORT[0].u8 = (uint8_t) ch;
+Core_cm4.h (library\cmsis\include):  __IO uint8_t  IP[240];                 /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
+Core_cm4.h (library\cmsis\include):  __IO uint8_t  SHP[12];                 /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
+Core_cm4.h (library\cmsis\include):    __O  uint8_t    u8;                  /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 8-bit                   */
+Core_cm4.h (library\cmsis\include):    ITM->PORT[0].u8 = (uint8_t) ch;
+core_cmInstr.h (library\cmsis\include):    \return             value of type uint8_t at (*ptr)
+core_cmInstr.h (library\cmsis\include):#define __LDREXB(ptr)                     ((uint8_t ) __ldrex(ptr))
+core_cmInstr.h (library\cmsis\include):    \return             value of type uint8_t at (*ptr)
+core_cmInstr.h (library\cmsis\include):__attribute__( ( always_inline ) ) __STATIC_INLINE uint8_t __LDREXB(volatile uint8_t *addr)
+core_cmInstr.h (library\cmsis\include):__attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __STREXB(uint8_t value, volatile uint8_t *addr)
+core_cmInstr.h (library\cmsis\include):__attribute__( ( always_inline ) ) __STATIC_INLINE uint8_t __CLZ(uint32_t value)
+Core_sc300.h (library\cmsis\include):  __IO uint8_t  IP[240];                 /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
+Core_sc300.h (library\cmsis\include):  __IO uint8_t  SHP[12];                 /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
+Core_sc300.h (library\cmsis\include):    __O  uint8_t    u8;                  /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 8-bit                   */
+Core_sc300.h (library\cmsis\include):    ITM->PORT[0].u8 = (uint8_t) ch;
+Cv_app_iap.c (app):uint8_t file_buf[FILE_BUF_LEN] = {0};
+Cv_app_iap.c (app):uint8_t file_name[FILE_NAME_LENGTH];
+Cv_app_iap.c (app):    static uint8_t key_press_count = 0;
+Cv_app_iap.c (app):uint8_t app_iap_trans_process(void)
+Cv_app_iap.c (app):    uint8_t Number[10] ={0};
+Cv_app_iap.h (include):uint8_t app_iap_trans_process(void);
+Cv_app_sd.c (app):extern uint8_t file_buf[FILE_BUF_LEN];
+Cv_app_sd.c (app):uint8_t file_sys_init(void)
+Cv_app_sd.c (app):    uint8_t test_buf[]="fred";
+Cv_app_sd.c (app):    uint8_t read_buf[10];
+Cv_app_sd.c (app):uint8_t sd_file_trans(uint8_t *file_buf,FIL *file_ptr)
+Cv_app_sd.c (app):uint8_t app_sd_trans_process(void)
+Cv_app_sd.c (app):    uint8_t sd_return = FALSE;
+Cv_app_sd.c (app):    uint8_t fine_file = 0;
+Cv_app_sd.h (include):uint8_t app_sd_trans_process(void);
+Cv_app_upgrade.c (app):    uint8_t trans_result;
+Cv_app_upgrade.h (include):typedef uint8_t (*upgrade_trans_hook) (void);
+Cv_bsp_ckl.h (include):BSP_CLK_EXTERN  uint8_t sys_clk_sorce;
+Cv_bsp_gpio.c (bsp):uint8_t led_conut;
+Cv_bsp_gpio.c (bsp):uint8_t bsp_key_state(void)
+Cv_bsp_gpio.c (bsp):    static uint8_t led_count;
+Cv_bsp_gpio.c (bsp):    uint8_t led_period;
+Cv_bsp_gpio.c (bsp):    uint8_t led_state;
+Cv_bsp_gpio.h (include):uint8_t bsp_key_state(void);
+Cv_bsp_usart.c (bsp):    USART_SendData(DEBUG_UART, (uint8_t) ch);
+Cv_bsp_usart.c (bsp):uint8_t uart2_buf_check(void)
+Cv_bsp_usart.c (bsp):uint8_t uart2_read_data(void)
+Cv_bsp_usart.c (bsp):    uint8_t rev_data;
+Cv_bsp_usart.c (bsp):uint32_t uart2_buf_read(uint8_t *data)
+Cv_bsp_usart.c (bsp):void uart2_send_char(uint8_t data)
+Cv_bsp_usart.c (bsp):uint32_t Str2Int(uint8_t *inputstr, int32_t *intnum)
+Cv_bsp_usart.c (bsp):void Int2Str(uint8_t* str, int32_t intnum)
+Cv_bsp_usart.c (bsp):        uint8_t uart2_rev_data;
+Cv_bsp_usart.c (bsp):    uint8_t uart2_rev_data;
+Cv_bsp_usart.h (include):    uint8_t buf[UART_REV_BUF_MAX];
+Cv_bsp_usart.h (include):    uint8_t head;
+Cv_bsp_usart.h (include):    uint8_t tail;
+Cv_bsp_usart.h (include):uint8_t uart2_read_data(void);
+Cv_bsp_usart.h (include):uint8_t uart2_buf_check(void);
+Cv_bsp_usart.h (include):uint32_t uart2_buf_read(uint8_t *data);
+Cv_bsp_usart.h (include):void uart2_send_char(uint8_t data);
+Cv_bsp_usart.h (include):uint32_t Str2Int(uint8_t *inputstr, int32_t *intnum);
+Cv_bsp_usart.h (include):#define SerialPutString(x) Serial_PutString((uint8_t*)(x))
+Cv_bsp_usart.h (include):void Int2Str(uint8_t* str,int32_t intnum);
+Cv_bsp_usart.h (include):uint32_t Str2Int(uint8_t *inputstr,int32_t *intnum);
+Cv_bsp_usart.h (include):uint32_t SerialKeyPressed(uint8_t *key);
+Cv_bsp_usart.h (include):uint8_t GetKey(void);
+Cv_bsp_usart.h (include):void SerialPutChar(uint8_t c);
+Cv_bsp_usart.h (include):void Serial_PutString(uint8_t *s);
+Cv_bsp_usart.h (include):void GetInputString(uint8_t * buffP);
+Cv_drives_flash.c (drives):uint8_t md5_cal[16];
+Cv_drives_flash.c (drives):fm_header_check_e  firmware_head_analysis(uint8_t *data_ptr)
+Cv_drives_flash.c (drives):uint8_t erase_occupy_flash(void)
+Cv_drives_flash.c (drives):uint8_t md5_check(void)
+Cv_drives_flash.c (drives):    uint8_t cir_count;
+Cv_drives_flash.c (drives):uint8_t drives_flash_packet_write_t(uint8_t *data_ptr,uint32_t data_len,uint32_t pack_seq)
+Cv_drives_flash.c (drives):     uint8_t *md5_data;
+Cv_drives_flash.c (drives):     md5_data = (uint8_t *)update_flash_manage.write_data;
+Cv_drives_flash.h (include):uint8_t drives_flash_packet_write(uint8_t *data_ptr,uint8_t data_len,uint32_t pack_seq);
+Cv_drives_flash.h (include):uint8_t drives_flash_packet_write_t(uint8_t *data_ptr,uint32_t data_len,uint32_t pack_seq);
+Cv_drives_flash.h (include):uint8_t drives_flash_packet_write_tt(uint8_t *data_ptr,uint32_t data_len,uint32_t pack_seq);
+Cv_drives_flash.h (include):uint8_t md5_check(void);
+Cv_drives_md5.c (drives):void wb_md5_final( uint8_t digest[16], md5_ctx* context)
+Cv_drives_md5.c (drives):void wb_md5_update( md5_ctx* context, uint8_t* input, uint32_t inputLen)
+Cv_drives_md5.h (drives):typedef unsigned char   uint8_t;
+Cv_drives_md5.h (drives):    uint8_t  buffer[64]; /* input buffer */
+Cv_drives_md5.h (drives):void wb_md5_update(md5_ctx* context, uint8_t* input, uint32_t inputLen);
+Cv_drives_md5.h (drives):void wb_md5_final(uint8_t digest[16], md5_ctx* context);
+Cv_drives_md5.h (include):typedef unsigned char   uint8_t;
+Cv_drives_md5.h (include):    uint8_t  buffer[64]; /* input buffer */
+Cv_drives_md5.h (include):void wb_md5_update(md5_ctx* context, uint8_t* input, uint32_t inputLen);
+Cv_drives_md5.h (include):void wb_md5_final(uint8_t digest[16], md5_ctx* context);
+Cv_drives_sd_spi.c (drives):__inline int MSD0_spi_read_write(uint8_t data)
+Cv_drives_sd_spi.c (drives):void MSD0_SPIHighSpeed(uint8_t b_high)
+Cv_drives_sd_spi.c (drives):    uint8_t r1;
+Cv_drives_sd_spi.c (drives):	uint8_t r1;
+Cv_drives_sd_spi.c (drives):	uint8_t buff[6] = {0};
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):  uint8_t CSD_Tab[16];
+Cv_drives_sd_spi.c (drives):  uint8_t CID_Tab[16];
+Cv_drives_sd_spi.c (drives):int MSD0_read_buffer(uint8_t *buff, uint16_t len, uint8_t release)
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):int MSD0_ReadSingleBlock(uint32_t sector, uint8_t *buffer)
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):  uint8_t retry;
+Cv_drives_sd_spi.c (drives):int MSD0_ReadMultiBlock(uint32_t sector, uint8_t *buffer, uint32_t NbrOfSector)
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):int MSD0_send_command(uint8_t cmd, uint32_t arg, uint8_t crc)
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):  uint8_t retry;
+Cv_drives_sd_spi.c (drives):int MSD0_send_command_hold(uint8_t cmd, uint32_t arg, uint8_t crc)
+Cv_drives_sd_spi.c (drives):  uint8_t r1;
+Cv_drives_sd_spi.c (drives):  uint8_t retry;
+Cv_drives_sd_spi.h (include):int MSD0_ReadSingleBlock(uint32_t sector, uint8_t *buffer);
+Cv_drives_sd_spi.h (include):int MSD0_ReadMultiBlock(uint32_t sector, uint8_t *buffer, uint32_t NbrOfSector);
+Cv_drives_sd_spi.h (include):void MSD0_SPIHighSpeed(uint8_t b_high);
+Cv_drives_sd_spi.h (include):__inline int MSD0_spi_read_write(uint8_t data);
+Cv_drives_sd_spi.h (include):int MSD0_send_command(uint8_t cmd, uint32_t arg, uint8_t crc);
+Cv_drives_sd_spi.h (include):int MSD0_send_command_hold(uint8_t cmd, uint32_t arg, uint8_t crc);
+Cv_drives_sd_spi.h (include):int MSD0_read_buffer(uint8_t *buff, uint16_t len, uint8_t release);
+Cv_sys_main.h (include):typedef uint8_t func_result;
+Diskio.c (drives\fatfs\src):				Status = MSD0_WriteSingleBlock( sector , (uint8_t *)(&buff[0]) );
+Diskio.c (drives\fatfs\src):				Status = MSD0_WriteMultiBlock( sector , (uint8_t *)(&buff[0]) , count );
+Menu.c (drives):uint8_t tab_1024[1024] =
+Menu.c (drives):uint8_t FileName[FILE_NAME_LENGTH];
+Menu.c (drives):  uint8_t Number[10] = "          ";
+Menu.c (drives):  uint8_t status = 0 ;
+Menu.c (drives):    status = Ymodem_Transmit((uint8_t*)APPLICATION_ADDRESS, (const uint8_t*)"UploadedFlashImage.bin", USER_FLASH_SIZE);
+Menu.c (drives):  uint8_t key = 0;
+Misc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t tmppriority = 0x00, tmppre = 0x00, tmpsub = 0x0F;
+Misc.c (library\stm32f4xx_stdperiph_driver\src):    tmppriority |=  (uint8_t)(NVIC_InitStruct->NVIC_IRQChannelSubPriority & tmpsub);
+Misc.c (library\stm32f4xx_stdperiph_driver\src):      (uint32_t)0x01 << (NVIC_InitStruct->NVIC_IRQChannel & (uint8_t)0x1F);
+Misc.c (library\stm32f4xx_stdperiph_driver\src):      (uint32_t)0x01 << (NVIC_InitStruct->NVIC_IRQChannel & (uint8_t)0x1F);
+Misc.c (library\stm32f4xx_stdperiph_driver\src):void NVIC_SystemLPConfig(uint8_t LowPowerMode, FunctionalState NewState)
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t NVIC_IRQChannel;                    /*!< Specifies the IRQ channel to be enabled or disabled.
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t NVIC_IRQChannelPreemptionPriority;  /*!< Specifies the pre-emption priority for the IRQ channel
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t NVIC_IRQChannelSubPriority;         /*!< Specifies the subpriority level for the IRQ channel specified
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):#define NVIC_LP_SEVONPEND            ((uint8_t)0x10)
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):#define NVIC_LP_SLEEPDEEP            ((uint8_t)0x04)
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):#define NVIC_LP_SLEEPONEXIT          ((uint8_t)0x02)
+Misc.h (library\stm32f4xx_stdperiph_driver\inc):void NVIC_SystemLPConfig(uint8_t LowPowerMode, FunctionalState NewState);
+Release_Notes.html (library\stm32f4xx_stdperiph_driver):PWR_Regulator, uint8_t PWR_STOPEntry) </span>only used in case of STM32F427/437/429/439xx devices.<o:p></o:p></span></p>
+Release_Notes.html (library\stm32f4xx_stdperiph_driver):((uint8_t)0x09)&nbsp; /* I2C2 Alternate Function mapping */</span><span style="font-size: 10pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;"></span></li><li class="MsoNormal" style="color: black; margin-top: 4.5pt; margin-bottom: 4.5pt;"><span style="font-size: 10pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;"><span style="font-style: italic;">#define
+Release_Notes.html (library\stm32f4xx_stdperiph_driver):((uint8_t)0x09)&nbsp; /* I2C3 Alternate Function mapping */</span></span></li></ul><li class="MsoNormal" style="margin-top: 4.5pt; margin-bottom: 4.5pt; color: black;"><span style="font-size: 10pt; font-family: Verdana;">Update all functions header
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):typedef uint8_t  u8;
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):typedef const uint8_t uc8;   /*!< Read Only */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):typedef __IO uint8_t  vu8;
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):typedef __I uint8_t vuc8;   /*!< Read Only */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):  __IO uint8_t  IDR;        /*!< CRC Independent data register, Address offset: 0x04 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):  uint8_t       RESERVED0;  /*!< Reserved, 0x05                                      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  ADC_SR_AWD                          ((uint8_t)0x01)               /*!<Analog watchdog flag               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  ADC_SR_EOC                          ((uint8_t)0x02)               /*!<End of conversion                  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  ADC_SR_JEOC                         ((uint8_t)0x04)               /*!<Injected channel end of conversion */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  ADC_SR_JSTRT                        ((uint8_t)0x08)               /*!<Injected channel Start flag        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  ADC_SR_STRT                         ((uint8_t)0x10)               /*!<Regular channel Start flag         */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  ADC_SR_OVR                          ((uint8_t)0x20)               /*!<Overrun flag                       */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF0R_FMP0                       ((uint8_t)0x03)               /*!<FIFO 0 Message Pending */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF0R_FULL0                      ((uint8_t)0x08)               /*!<FIFO 0 Full */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF0R_FOVR0                      ((uint8_t)0x10)               /*!<FIFO 0 Overrun */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF0R_RFOM0                      ((uint8_t)0x20)               /*!<Release FIFO 0 Output Mailbox */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF1R_FMP1                       ((uint8_t)0x03)               /*!<FIFO 1 Message Pending */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF1R_FULL1                      ((uint8_t)0x08)               /*!<FIFO 1 Full */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF1R_FOVR1                      ((uint8_t)0x10)               /*!<FIFO 1 Overrun */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_RF1R_RFOM1                      ((uint8_t)0x20)               /*!<Release FIFO 1 Output Mailbox */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CAN_FMR_FINIT                       ((uint8_t)0x01)               /*!<Filter Init Mode */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CRC_IDR_IDR                         ((uint8_t)0xFF)        /*!< General-purpose 8-bit data register bits */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  CRC_CR_RESET                        ((uint8_t)0x01)        /*!< RESET bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  DAC_SWTRIGR_SWTRIG1                 ((uint8_t)0x01)               /*!<DAC channel1 software trigger */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  DAC_SWTRIGR_SWTRIG2                 ((uint8_t)0x02)               /*!<DAC channel2 software trigger */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  DAC_DHR8R1_DACC1DHR                 ((uint8_t)0xFF)               /*!<DAC channel1 8-bit Right aligned data */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  DAC_DHR8R2_DACC2DHR                 ((uint8_t)0xFF)               /*!<DAC channel2 8-bit Right aligned data */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_IREN                       ((uint8_t)0x08)               /*!<Interrupt Rising Edge detection Enable bit  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR2_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_IREN                       ((uint8_t)0x08)               /*!<Interrupt Rising Edge detection Enable bit  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR3_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                       */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_IREN                       ((uint8_t)0x08)               /*!<Interrupt Rising Edge detection Enable bit   */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit         */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FSMC_SR4_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_IREN                       ((uint8_t)0x08)               /*!<Interrupt Rising Edge detection Enable bit  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR2_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty                                  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_IREN                       ((uint8_t)0x08)               /*!<Interrupt Rising Edge detection Enable bit  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR3_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty                                  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_IREN                       ((uint8_t)0x08)               /*!<Interrupt Rising Edge detection Enable bit  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  FMC_SR4_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty                                  */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  I2C_OAR2_ENDUAL                     ((uint8_t)0x01)               /*!<Dual addressing mode enable */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  I2C_OAR2_ADD2                       ((uint8_t)0xFE)               /*!<Interface address           */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  I2C_DR_DR                           ((uint8_t)0xFF)               /*!<8-bit Data Register         */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  I2C_TRISE_TRISE                     ((uint8_t)0x3F)               /*!<Maximum Rise Time in Fast/Standard mode (Master mode) */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  I2C_FLTR_DNF                     ((uint8_t)0x0F)                  /*!<Digital Noise Filter */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  I2C_FLTR_ANOFF                   ((uint8_t)0x10)                  /*!<Analog Noise Filter OFF */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  IWDG_PR_PR                          ((uint8_t)0x07)               /*!<PR[2:0] (Prescaler divider)         */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  IWDG_PR_PR_0                        ((uint8_t)0x01)               /*!<Bit 0 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  IWDG_PR_PR_1                        ((uint8_t)0x02)               /*!<Bit 1 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  IWDG_PR_PR_2                        ((uint8_t)0x04)               /*!<Bit 2 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  IWDG_SR_PVU                         ((uint8_t)0x01)               /*!<Watchdog prescaler value update      */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  IWDG_SR_RVU                         ((uint8_t)0x02)               /*!<Watchdog counter reload value update */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SDIO_POWER_PWRCTRL                  ((uint8_t)0x03)               /*!<PWRCTRL[1:0] bits (Power supply control bits) */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SDIO_POWER_PWRCTRL_0                ((uint8_t)0x01)               /*!<Bit 0 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SDIO_POWER_PWRCTRL_1                ((uint8_t)0x02)               /*!<Bit 1 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SDIO_RESPCMD_RESPCMD                ((uint8_t)0x3F)               /*!<Response command index */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_CR2_RXDMAEN                     ((uint8_t)0x01)               /*!<Rx Buffer DMA Enable                 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_CR2_TXDMAEN                     ((uint8_t)0x02)               /*!<Tx Buffer DMA Enable                 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_CR2_SSOE                        ((uint8_t)0x04)               /*!<SS Output Enable                     */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_CR2_ERRIE                       ((uint8_t)0x20)               /*!<Error Interrupt Enable               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_CR2_RXNEIE                      ((uint8_t)0x40)               /*!<RX buffer Not Empty Interrupt Enable */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_CR2_TXEIE                       ((uint8_t)0x80)               /*!<Tx buffer Empty Interrupt Enable     */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_RXNE                         ((uint8_t)0x01)               /*!<Receive buffer Not Empty */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_TXE                          ((uint8_t)0x02)               /*!<Transmit buffer Empty    */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_CHSIDE                       ((uint8_t)0x04)               /*!<Channel side             */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_UDR                          ((uint8_t)0x08)               /*!<Underrun flag            */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_CRCERR                       ((uint8_t)0x10)               /*!<CRC Error flag           */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_MODF                         ((uint8_t)0x20)               /*!<Mode fault               */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_OVR                          ((uint8_t)0x40)               /*!<Overrun flag             */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  SPI_SR_BSY                          ((uint8_t)0x80)               /*!<Busy flag                */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_UG                          ((uint8_t)0x01)               /*!<Update Generation                         */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_CC1G                        ((uint8_t)0x02)               /*!<Capture/Compare 1 Generation              */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_CC2G                        ((uint8_t)0x04)               /*!<Capture/Compare 2 Generation              */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_CC3G                        ((uint8_t)0x08)               /*!<Capture/Compare 3 Generation              */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_CC4G                        ((uint8_t)0x10)               /*!<Capture/Compare 4 Generation              */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_COMG                        ((uint8_t)0x20)               /*!<Capture/Compare Control Update Generation */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_TG                          ((uint8_t)0x40)               /*!<Trigger Generation                        */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_EGR_BG                          ((uint8_t)0x80)               /*!<Break Generation                          */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  TIM_RCR_REP                         ((uint8_t)0xFF)               /*!<Repetition Counter Value */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T                           ((uint8_t)0x7F)               /*!<T[6:0] bits (7-Bit counter (MSB to LSB)) */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T0                          ((uint8_t)0x01)               /*!<Bit 0 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T1                          ((uint8_t)0x02)               /*!<Bit 1 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T2                          ((uint8_t)0x04)               /*!<Bit 2 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T3                          ((uint8_t)0x08)               /*!<Bit 3 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T4                          ((uint8_t)0x10)               /*!<Bit 4 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T5                          ((uint8_t)0x20)               /*!<Bit 5 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_T6                          ((uint8_t)0x40)               /*!<Bit 6 */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_CR_WDGA                        ((uint8_t)0x80)               /*!<Activation bit */
+Stm32f4xx.h (library\cmsis\device\st\stm32f4xx\include):#define  WWDG_SR_EWIF                        ((uint8_t)0x01)               /*!<Early Wakeup Interrupt Flag */
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):#define JDR_OFFSET                ((uint8_t)0x28)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t tmpreg2 = 0;
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  tmpreg2 |= (uint8_t)(ADC_InitStruct->ADC_NbrOfConversion - (uint8_t)1);
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_AnalogWatchdogSingleChannelConfig(ADC_TypeDef* ADCx, uint8_t ADC_Channel)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_RegularChannelConfig(ADC_TypeDef* ADCx, uint8_t ADC_Channel, uint8_t Rank, uint8_t ADC_SampleTime)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_DiscModeChannelCountConfig(ADC_TypeDef* ADCx, uint8_t Number)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_InjectedChannelConfig(ADC_TypeDef* ADCx, uint8_t ADC_Channel, uint8_t Rank, uint8_t ADC_SampleTime)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  tmpreg2 = JSQR_JSQ_SET << (5 * (uint8_t)((Rank + 3) - (tmpreg3 + 1)));
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  tmpreg2 = (uint32_t)ADC_Channel << (5 * (uint8_t)((Rank + 3) - (tmpreg3 + 1)));
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_InjectedSequencerLengthConfig(ADC_TypeDef* ADCx, uint8_t Length)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_SetInjectedOffset(ADC_TypeDef* ADCx, uint8_t ADC_InjectedChannel, uint16_t Offset)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):uint16_t ADC_GetInjectedConversionValue(ADC_TypeDef* ADCx, uint8_t ADC_InjectedChannel)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  itmask = (uint8_t)ADC_IT;
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):FlagStatus ADC_GetFlagStatus(ADC_TypeDef* ADCx, uint8_t ADC_FLAG)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  if ((ADCx->SR & ADC_FLAG) != (uint8_t)RESET)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):void ADC_ClearFlag(ADC_TypeDef* ADCx, uint8_t ADC_FLAG)
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  enablestatus = (ADCx->CR1 & ((uint32_t)0x01 << (uint8_t)ADC_IT)) ;
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t itmask = 0;
+Stm32f4xx_adc.c (library\stm32f4xx_stdperiph_driver\src):  itmask = (uint8_t)(ADC_IT >> 8);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t  ADC_NbrOfConversion;           /*!< Specifies the number of ADC conversions
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_0                               ((uint8_t)0x00)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_1                               ((uint8_t)0x01)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_2                               ((uint8_t)0x02)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_3                               ((uint8_t)0x03)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_4                               ((uint8_t)0x04)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_5                               ((uint8_t)0x05)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_6                               ((uint8_t)0x06)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_7                               ((uint8_t)0x07)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_8                               ((uint8_t)0x08)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_9                               ((uint8_t)0x09)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_10                              ((uint8_t)0x0A)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_11                              ((uint8_t)0x0B)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_12                              ((uint8_t)0x0C)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_13                              ((uint8_t)0x0D)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_14                              ((uint8_t)0x0E)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_15                              ((uint8_t)0x0F)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_16                              ((uint8_t)0x10)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_17                              ((uint8_t)0x11)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_18                              ((uint8_t)0x12)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_TempSensor                      ((uint8_t)ADC_Channel_16)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_TempSensor                      ((uint8_t)ADC_Channel_18)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_Vrefint                         ((uint8_t)ADC_Channel_17)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_Channel_Vbat                            ((uint8_t)ADC_Channel_18)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_3Cycles                    ((uint8_t)0x00)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_15Cycles                   ((uint8_t)0x01)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_28Cycles                   ((uint8_t)0x02)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_56Cycles                   ((uint8_t)0x03)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_84Cycles                   ((uint8_t)0x04)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_112Cycles                  ((uint8_t)0x05)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_144Cycles                  ((uint8_t)0x06)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_SampleTime_480Cycles                  ((uint8_t)0x07)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_InjectedChannel_1                       ((uint8_t)0x14)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_InjectedChannel_2                       ((uint8_t)0x18)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_InjectedChannel_3                       ((uint8_t)0x1C)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_InjectedChannel_4                       ((uint8_t)0x20)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_FLAG_AWD                               ((uint8_t)0x01)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_FLAG_EOC                               ((uint8_t)0x02)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_FLAG_JEOC                              ((uint8_t)0x04)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_FLAG_JSTRT                             ((uint8_t)0x08)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_FLAG_STRT                              ((uint8_t)0x10)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define ADC_FLAG_OVR                               ((uint8_t)0x20)
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_ADC_CLEAR_FLAG(FLAG) ((((FLAG) & (uint8_t)0xC0) == 0x00) && ((FLAG) != 0x00))
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_AnalogWatchdogSingleChannelConfig(ADC_TypeDef* ADCx, uint8_t ADC_Channel);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_RegularChannelConfig(ADC_TypeDef* ADCx, uint8_t ADC_Channel, uint8_t Rank, uint8_t ADC_SampleTime);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_DiscModeChannelCountConfig(ADC_TypeDef* ADCx, uint8_t Number);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_InjectedChannelConfig(ADC_TypeDef* ADCx, uint8_t ADC_Channel, uint8_t Rank, uint8_t ADC_SampleTime);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_InjectedSequencerLengthConfig(ADC_TypeDef* ADCx, uint8_t Length);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_SetInjectedOffset(ADC_TypeDef* ADCx, uint8_t ADC_InjectedChannel, uint16_t Offset);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):uint16_t ADC_GetInjectedConversionValue(ADC_TypeDef* ADCx, uint8_t ADC_InjectedChannel);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):FlagStatus ADC_GetFlagStatus(ADC_TypeDef* ADCx, uint8_t ADC_FLAG);
+Stm32f4xx_adc.h (library\stm32f4xx_stdperiph_driver\inc):void ADC_ClearFlag(ADC_TypeDef* ADCx, uint8_t ADC_FLAG);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):#define CAN_TXMAILBOX_0   ((uint8_t)0x00)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):#define CAN_TXMAILBOX_1   ((uint8_t)0x01)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):#define CAN_TXMAILBOX_2   ((uint8_t)0x02)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_Init(CAN_TypeDef* CANx, CAN_InitTypeDef* CAN_InitStruct)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t InitStatus = CAN_InitStatus_Failed;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):void CAN_SlaveStartBank(uint8_t CAN_BankNumber)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_Transmit(CAN_TypeDef* CANx, CanTxMsg* TxMessage)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t transmit_mailbox = 0;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):    TxMessage->DLC &= (uint8_t)0x0000000F;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_TransmitStatus(CAN_TypeDef* CANx, uint8_t TransmitMailbox)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  return (uint8_t) state;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):void CAN_CancelTransmit(CAN_TypeDef* CANx, uint8_t Mailbox)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):void CAN_Receive(CAN_TypeDef* CANx, uint8_t FIFONumber, CanRxMsg* RxMessage)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->IDE = (uint8_t)0x04 & CANx->sFIFOMailBox[FIFONumber].RIR;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->RTR = (uint8_t)0x02 & CANx->sFIFOMailBox[FIFONumber].RIR;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->DLC = (uint8_t)0x0F & CANx->sFIFOMailBox[FIFONumber].RDTR;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->FMI = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDTR >> 8);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[0] = (uint8_t)0xFF & CANx->sFIFOMailBox[FIFONumber].RDLR;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[1] = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDLR >> 8);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[2] = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDLR >> 16);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[3] = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDLR >> 24);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[4] = (uint8_t)0xFF & CANx->sFIFOMailBox[FIFONumber].RDHR;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[5] = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDHR >> 8);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[6] = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDHR >> 16);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  RxMessage->Data[7] = (uint8_t)0xFF & (CANx->sFIFOMailBox[FIFONumber].RDHR >> 24);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):void CAN_FIFORelease(CAN_TypeDef* CANx, uint8_t FIFONumber)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_MessagePending(CAN_TypeDef* CANx, uint8_t FIFONumber)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t message_pending=0;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):    message_pending = (uint8_t)(CANx->RF0R&(uint32_t)0x03);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):    message_pending = (uint8_t)(CANx->RF1R&(uint32_t)0x03);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_OperatingModeRequest(CAN_TypeDef* CANx, uint8_t CAN_OperatingMode)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t status = CAN_ModeStatus_Failed;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  return  (uint8_t) status;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_Sleep(CAN_TypeDef* CANx)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t sleepstatus = CAN_Sleep_Failed;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):   return (uint8_t)sleepstatus;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_WakeUp(CAN_TypeDef* CANx)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t wakeupstatus = CAN_WakeUp_Failed;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  return (uint8_t)wakeupstatus;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_GetLastErrorCode(CAN_TypeDef* CANx)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t errorcode=0;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  errorcode = (((uint8_t)CANx->ESR) & (uint8_t)CAN_ESR_LEC);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_GetReceiveErrorCounter(CAN_TypeDef* CANx)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t counter=0;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  counter = (uint8_t)((CANx->ESR & CAN_ESR_REC)>> 24);
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CAN_GetLSBTransmitErrorCounter(CAN_TypeDef* CANx)
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t counter=0;
+Stm32f4xx_can.c (library\stm32f4xx_stdperiph_driver\src):  counter = (uint8_t)((CANx->ESR & CAN_ESR_TEC)>> 16);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_Mode;         /*!< Specifies the CAN operating mode.
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_SJW;          /*!< Specifies the maximum number of time quanta
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_BS1;          /*!< Specifies the number of time quanta in Bit
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_BS2;          /*!< Specifies the number of time quanta in Bit Segment 2.
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_FilterNumber;          /*!< Specifies the filter which will be initialized. It ranges from 0 to 13. */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_FilterMode;            /*!< Specifies the filter mode to be initialized.
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t CAN_FilterScale;           /*!< Specifies the filter scale.
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t IDE;     /*!< Specifies the type of identifier for the message that
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTR;     /*!< Specifies the type of frame for the message that will
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t DLC;     /*!< Specifies the length of the frame that will be
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t Data[8]; /*!< Contains the data to be transmitted. It ranges from 0
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t IDE;     /*!< Specifies the type of identifier for the message that
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTR;     /*!< Specifies the type of frame for the received message.
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t DLC;     /*!< Specifies the length of the frame that will be received.
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t Data[8]; /*!< Contains the data to be received. It ranges from 0 to
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t FMI;     /*!< Specifies the index of the filter the message stored in
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_InitStatus_Failed              ((uint8_t)0x00) /*!< CAN initialization failed */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_InitStatus_Success             ((uint8_t)0x01) /*!< CAN initialization OK */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Mode_Normal             ((uint8_t)0x00)  /*!< normal mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Mode_LoopBack           ((uint8_t)0x01)  /*!< loopback mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Mode_Silent             ((uint8_t)0x02)  /*!< silent mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Mode_Silent_LoopBack    ((uint8_t)0x03)  /*!< loopback combined with silent mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_OperatingMode_Initialization  ((uint8_t)0x00) /*!< Initialization mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_OperatingMode_Normal          ((uint8_t)0x01) /*!< Normal mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_OperatingMode_Sleep           ((uint8_t)0x02) /*!< sleep mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_ModeStatus_Failed    ((uint8_t)0x00)                /*!< CAN entering the specific mode failed */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_ModeStatus_Success   ((uint8_t)!CAN_ModeStatus_Failed)   /*!< CAN entering the specific mode Succeed */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_SJW_1tq                 ((uint8_t)0x00)  /*!< 1 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_SJW_2tq                 ((uint8_t)0x01)  /*!< 2 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_SJW_3tq                 ((uint8_t)0x02)  /*!< 3 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_SJW_4tq                 ((uint8_t)0x03)  /*!< 4 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_1tq                 ((uint8_t)0x00)  /*!< 1 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_2tq                 ((uint8_t)0x01)  /*!< 2 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_3tq                 ((uint8_t)0x02)  /*!< 3 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_4tq                 ((uint8_t)0x03)  /*!< 4 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_5tq                 ((uint8_t)0x04)  /*!< 5 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_6tq                 ((uint8_t)0x05)  /*!< 6 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_7tq                 ((uint8_t)0x06)  /*!< 7 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_8tq                 ((uint8_t)0x07)  /*!< 8 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_9tq                 ((uint8_t)0x08)  /*!< 9 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_10tq                ((uint8_t)0x09)  /*!< 10 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_11tq                ((uint8_t)0x0A)  /*!< 11 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_12tq                ((uint8_t)0x0B)  /*!< 12 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_13tq                ((uint8_t)0x0C)  /*!< 13 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_14tq                ((uint8_t)0x0D)  /*!< 14 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_15tq                ((uint8_t)0x0E)  /*!< 15 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS1_16tq                ((uint8_t)0x0F)  /*!< 16 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_1tq                 ((uint8_t)0x00)  /*!< 1 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_2tq                 ((uint8_t)0x01)  /*!< 2 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_3tq                 ((uint8_t)0x02)  /*!< 3 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_4tq                 ((uint8_t)0x03)  /*!< 4 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_5tq                 ((uint8_t)0x04)  /*!< 5 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_6tq                 ((uint8_t)0x05)  /*!< 6 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_7tq                 ((uint8_t)0x06)  /*!< 7 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_BS2_8tq                 ((uint8_t)0x07)  /*!< 8 time quantum */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_FilterMode_IdMask       ((uint8_t)0x00)  /*!< identifier/mask mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_FilterMode_IdList       ((uint8_t)0x01)  /*!< identifier list mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_FilterScale_16bit       ((uint8_t)0x00) /*!< Two 16-bit filters */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_FilterScale_32bit       ((uint8_t)0x01) /*!< One 32-bit filter */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Filter_FIFO0             ((uint8_t)0x00)  /*!< Filter FIFO 0 assignment for filter x */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Filter_FIFO1             ((uint8_t)0x01)  /*!< Filter FIFO 1 assignment for filter x */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_CAN_TRANSMITMAILBOX(TRANSMITMAILBOX) ((TRANSMITMAILBOX) <= ((uint8_t)0x02))
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_CAN_DLC(DLC)       ((DLC) <= ((uint8_t)0x08))
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_TxStatus_Failed         ((uint8_t)0x00)/*!< CAN transmission failed */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_TxStatus_Ok             ((uint8_t)0x01) /*!< CAN transmission succeeded */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_TxStatus_Pending        ((uint8_t)0x02) /*!< CAN transmission pending */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_TxStatus_NoMailBox      ((uint8_t)0x04) /*!< CAN cell did not provide
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_FIFO0                 ((uint8_t)0x00) /*!< CAN FIFO 0 used to receive */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_FIFO1                 ((uint8_t)0x01) /*!< CAN FIFO 1 used to receive */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Sleep_Failed     ((uint8_t)0x00) /*!< CAN did not enter the sleep mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_Sleep_Ok         ((uint8_t)0x01) /*!< CAN entered the sleep mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_WakeUp_Failed        ((uint8_t)0x00) /*!< CAN did not leave the sleep mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_WakeUp_Ok            ((uint8_t)0x01) /*!< CAN leaved the sleep mode */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define CAN_ErrorCode_NoErr           ((uint8_t)0x00) /*!< No Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_StuffErr        ((uint8_t)0x10) /*!< Stuff Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_FormErr         ((uint8_t)0x20) /*!< Form Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_ACKErr          ((uint8_t)0x30) /*!< Acknowledgment Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_BitRecessiveErr ((uint8_t)0x40) /*!< Bit Recessive Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_BitDominantErr  ((uint8_t)0x50) /*!< Bit Dominant Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_CRCErr          ((uint8_t)0x60) /*!< CRC Error  */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):#define	CAN_ErrorCode_SoftwareSetErr  ((uint8_t)0x70) /*!< Software Set Error */
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_Init(CAN_TypeDef* CANx, CAN_InitTypeDef* CAN_InitStruct);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):void CAN_SlaveStartBank(uint8_t CAN_BankNumber);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_Transmit(CAN_TypeDef* CANx, CanTxMsg* TxMessage);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_TransmitStatus(CAN_TypeDef* CANx, uint8_t TransmitMailbox);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):void CAN_CancelTransmit(CAN_TypeDef* CANx, uint8_t Mailbox);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):void CAN_Receive(CAN_TypeDef* CANx, uint8_t FIFONumber, CanRxMsg* RxMessage);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):void CAN_FIFORelease(CAN_TypeDef* CANx, uint8_t FIFONumber);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_MessagePending(CAN_TypeDef* CANx, uint8_t FIFONumber);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_OperatingModeRequest(CAN_TypeDef* CANx, uint8_t CAN_OperatingMode);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_Sleep(CAN_TypeDef* CANx);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_WakeUp(CAN_TypeDef* CANx);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_GetLastErrorCode(CAN_TypeDef* CANx);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_GetReceiveErrorCounter(CAN_TypeDef* CANx);
+Stm32f4xx_can.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CAN_GetLSBTransmitErrorCounter(CAN_TypeDef* CANx);
+Stm32f4xx_crc.c (library\stm32f4xx_stdperiph_driver\src):void CRC_SetIDRegister(uint8_t IDValue)
+Stm32f4xx_crc.c (library\stm32f4xx_stdperiph_driver\src):uint8_t CRC_GetIDRegister(void)
+Stm32f4xx_crc.h (library\stm32f4xx_stdperiph_driver\inc):void CRC_SetIDRegister(uint8_t IDValue);
+Stm32f4xx_crc.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t CRC_GetIDRegister(void);
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):#define FLAG_MASK     ((uint8_t)0x20)
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):void CRYP_DMACmd(uint8_t CRYP_DMAReq, FunctionalState NewState)
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):    CRYP->DMACR &= (uint8_t)~CRYP_DMAReq;
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):void CRYP_ITConfig(uint8_t CRYP_IT, FunctionalState NewState)
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):    CRYP->IMSCR &= (uint8_t)~CRYP_IT;
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):ITStatus CRYP_GetITStatus(uint8_t CRYP_IT)
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):  if ((CRYP->MISR &  CRYP_IT) != (uint8_t)RESET)
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):FlagStatus CRYP_GetFlagStatus(uint8_t CRYP_FLAG)
+Stm32f4xx_cryp.c (library\stm32f4xx_stdperiph_driver\src):  if ((tempreg & CRYP_FLAG ) != (uint8_t)RESET)
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_BUSY            ((uint8_t)0x10)  /*!< The CRYP core is currently
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_IFEM            ((uint8_t)0x01)  /*!< Input Fifo Empty */
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_IFNF            ((uint8_t)0x02)  /*!< Input Fifo is Not Full */
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_INRIS           ((uint8_t)0x22)  /*!< Raw interrupt pending */
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_OFNE            ((uint8_t)0x04)  /*!< Input Fifo service raw
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_OFFU            ((uint8_t)0x08)  /*!< Output Fifo is Full */
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_FLAG_OUTRIS          ((uint8_t)0x21)  /*!< Output Fifo service raw
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_IT_INI               ((uint8_t)0x01) /*!< IN Fifo Interrupt */
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_IT_OUTI              ((uint8_t)0x02) /*!< OUT Fifo Interrupt */
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_CRYP_CONFIG_IT(IT) ((((IT) & (uint8_t)0xFC) == 0x00) && ((IT) != 0x00))
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define MODE_ENCRYPT             ((uint8_t)0x01)
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define MODE_DECRYPT             ((uint8_t)0x00)
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_DMAReq_DataIN             ((uint8_t)0x01)
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define CRYP_DMAReq_DataOUT            ((uint8_t)0x02)
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_CRYP_DMAREQ(DMAREQ) ((((DMAREQ) & (uint8_t)0xFC) == 0x00) && ((DMAREQ) != 0x00))
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):void CRYP_DMACmd(uint8_t CRYP_DMAReq, FunctionalState NewState);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):void CRYP_ITConfig(uint8_t CRYP_IT, FunctionalState NewState);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ITStatus CRYP_GetITStatus(uint8_t CRYP_IT);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):FlagStatus CRYP_GetFlagStatus(uint8_t CRYP_FLAG);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_AES_ECB(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Key, uint16_t Keysize,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Output);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_AES_CBC(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t InitVectors[16],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Key, uint16_t Keysize,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Output);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_AES_CTR(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t InitVectors[16],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Key, uint16_t Keysize,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Output);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_AES_GCM(uint8_t Mode, uint8_t InitVectors[16],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Key, uint16_t Keysize,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Input, uint32_t ILength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Header, uint32_t HLength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Output, uint8_t *AuthTAG);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_AES_CCM(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t* Nonce, uint32_t NonceSize,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t* Key, uint16_t Keysize,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t* Input, uint32_t ILength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t* Header, uint32_t HLength, uint8_t *HBuffer,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t* Output,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t* AuthTAG, uint32_t TAGSize);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_TDES_ECB(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                           uint8_t Key[24],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                           uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                           uint8_t *Output);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_TDES_CBC(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                          uint8_t Key[24],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                          uint8_t InitVectors[8],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                          uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                          uint8_t *Output);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_DES_ECB(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t Key[8],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Output);
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus CRYP_DES_CBC(uint8_t Mode,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t Key[8],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t InitVectors[8],
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Input,uint32_t Ilength,
+Stm32f4xx_cryp.h (library\stm32f4xx_stdperiph_driver\inc):                         uint8_t *Output);
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_AES_ECB(uint8_t Mode, uint8_t* Key, uint16_t Keysize,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t* Input, uint32_t Ilength, uint8_t* Output)
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_AES_CBC(uint8_t Mode, uint8_t InitVectors[16], uint8_t *Key,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint16_t Keysize, uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Output)
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_AES_CTR(uint8_t Mode, uint8_t InitVectors[16], uint8_t *Key,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint16_t Keysize, uint8_t *Input, uint32_t Ilength,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Output)
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_AES_GCM(uint8_t Mode, uint8_t InitVectors[16],
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Key, uint16_t Keysize,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Input, uint32_t ILength,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Header, uint32_t HLength,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Output, uint8_t *AuthTAG)
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_AES_CCM(uint8_t Mode,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t* Nonce, uint32_t NonceSize,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Key, uint16_t Keysize,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Input, uint32_t ILength,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Header, uint32_t HLength, uint8_t *HBuffer,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Output,
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *AuthTAG, uint32_t TAGSize)
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t blockb0[16] = {0};/* Block B0 */
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t ctr[16] = {0}; /* Counter */
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):      HBuffer[bufferidx++] = (uint8_t) ((headersize >> 8) & 0xFF);
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):      HBuffer[bufferidx++] = (uint8_t) ((headersize) & 0xFF);
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):  blockb0[0] |= 0u | (((( (uint8_t) TAGSize - 2) / 2) & 0x07 ) << 3 ) | ( ( (uint8_t) (15 - NonceSize) - 1) & 0x07);
+Stm32f4xx_cryp_aes.c (library\stm32f4xx_stdperiph_driver\src):    *((uint8_t*)tagaddr+loopcounter) = *((uint8_t*)temptag+loopcounter);
+Stm32f4xx_cryp_des.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_DES_ECB(uint8_t Mode, uint8_t Key[8], uint8_t *Input,
+Stm32f4xx_cryp_des.c (library\stm32f4xx_stdperiph_driver\src):                         uint32_t Ilength, uint8_t *Output)
+Stm32f4xx_cryp_des.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_DES_CBC(uint8_t Mode, uint8_t Key[8], uint8_t InitVectors[8],
+Stm32f4xx_cryp_des.c (library\stm32f4xx_stdperiph_driver\src):                         uint8_t *Input, uint32_t Ilength, uint8_t *Output)
+Stm32f4xx_cryp_tdes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_TDES_ECB(uint8_t Mode, uint8_t Key[24], uint8_t *Input,
+Stm32f4xx_cryp_tdes.c (library\stm32f4xx_stdperiph_driver\src):                          uint32_t Ilength, uint8_t *Output)
+Stm32f4xx_cryp_tdes.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus CRYP_TDES_CBC(uint8_t Mode, uint8_t Key[24], uint8_t InitVectors[8],
+Stm32f4xx_cryp_tdes.c (library\stm32f4xx_stdperiph_driver\src):                          uint8_t *Input, uint32_t Ilength, uint8_t *Output)
+Stm32f4xx_dac.c (library\stm32f4xx_stdperiph_driver\src):  if ((DAC->SR & (DAC_FLAG << DAC_Channel)) != (uint8_t)RESET)
+Stm32f4xx_dcmi.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t DCMI_FrameStartCode; /*!< Specifies the code of the frame start delimiter. */
+Stm32f4xx_dcmi.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t DCMI_LineStartCode;  /*!< Specifies the code of the line start delimiter. */
+Stm32f4xx_dcmi.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t DCMI_LineEndCode;    /*!< Specifies the code of the line end delimiter. */
+Stm32f4xx_dcmi.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t DCMI_FrameEndCode;   /*!< Specifies the code of the frame end delimiter. */
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)ACR_BYTE0_ADDRESS = (uint8_t)FLASH_Latency;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) FLASH_Status FLASH_EraseSector(uint32_t FLASH_Sector, uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) FLASH_Status FLASH_EraseAllSectors(uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) FLASH_Status FLASH_ProgramByte(uint32_t Address, uint8_t Data)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) FLASH_Status FLASH_EraseAllBank1Sectors(uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) FLASH_Status FLASH_EraseAllBank2Sectors(uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):FLASH_Status FLASH_EraseSector(uint32_t FLASH_Sector, uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):FLASH_Status FLASH_EraseAllSectors(uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):FLASH_Status FLASH_EraseAllBank1Sectors(uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):FLASH_Status FLASH_EraseAllBank2Sectors(uint8_t VoltageRange)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):FLASH_Status FLASH_ProgramByte(uint32_t Address, uint8_t Data)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):    *(__IO uint8_t*)Address = Data;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) void FLASH_OB_PCROPSelectionConfig(uint8_t OB_PCROPSelect)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) void FLASH_OB_RDPConfig(uint8_t OB_RDP)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) void FLASH_OB_UserConfig(uint8_t OB_IWDG, uint8_t OB_STOP, uint8_t OB_STDBY)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) void FLASH_OB_BORConfig(uint8_t OB_BOR)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) uint8_t FLASH_OB_GetWRP(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) uint8_t FLASH_OB_GetWRP1(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) uint8_t FLASH_OB_GetPCROP(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) uint8_t FLASH_OB_GetPCROP1(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) uint8_t FLASH_OB_GetRDP(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) uint8_t FLASH_OB_GetBOR(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):      (+) void FLASH_OB_BootConfig(uint8_t OB_BOOT)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):        (++) void FLASH_OB_RDPConfig(uint8_t OB_RDP) => to set the desired read
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):        (++) void FLASH_OB_UserConfig(uint8_t OB_IWDG, uint8_t OB_STOP, uint8_t OB_STDBY)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):        (++) void FLASH_OB_BORConfig(uint8_t OB_BOR) => to set the BOR Level
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):void FLASH_OB_PCROPSelectionConfig(uint8_t OB_PcROP)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t optiontmp = 0xFF;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  optiontmp =  (uint8_t)((*(__IO uint8_t *)OPTCR_BYTE3_ADDRESS) & (uint8_t)0x7F);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)OPTCR_BYTE3_ADDRESS = (uint8_t)(OB_PcROP | optiontmp);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):void FLASH_OB_RDPConfig(uint8_t OB_RDP)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):    *(__IO uint8_t*)OPTCR_BYTE1_ADDRESS = OB_RDP;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):void FLASH_OB_UserConfig(uint8_t OB_IWDG, uint8_t OB_STOP, uint8_t OB_STDBY)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t optiontmp = 0xFF;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):    optiontmp =  (uint8_t)((*(__IO uint8_t *)OPTCR_BYTE0_ADDRESS) & (uint8_t)0x1F);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):    optiontmp =  (uint8_t)((*(__IO uint8_t *)OPTCR_BYTE0_ADDRESS) & (uint8_t)0x0F);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):    *(__IO uint8_t *)OPTCR_BYTE0_ADDRESS = OB_IWDG | (uint8_t)(OB_STDBY | (uint8_t)(OB_STOP | ((uint8_t)optiontmp)));
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):void FLASH_OB_BootConfig(uint8_t OB_BOOT)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)OPTCR_BYTE0_ADDRESS &= (~FLASH_OPTCR_BFB2);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)OPTCR_BYTE0_ADDRESS |= OB_BOOT;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):void FLASH_OB_BORConfig(uint8_t OB_BOR)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)OPTCR_BYTE0_ADDRESS &= (~FLASH_OPTCR_BOR_LEV);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)OPTCR_BYTE0_ADDRESS |= OB_BOR;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *)OPTCR_BYTE0_ADDRESS |= FLASH_OPTCR_OPTSTRT;
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):uint8_t FLASH_OB_GetUser(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  return (uint8_t)(FLASH->OPTCR >> 5);
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  if ((*(__IO uint8_t*)(OPTCR_BYTE1_ADDRESS) != (uint8_t)OB_RDP_Level_0))
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):uint8_t FLASH_OB_GetBOR(void)
+Stm32f4xx_flash.c (library\stm32f4xx_stdperiph_driver\src):  return (uint8_t)(*(__IO uint8_t *)(OPTCR_BYTE0_ADDRESS) & (uint8_t)0x0C);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_0                ((uint8_t)0x0000)  /*!< FLASH Zero Latency cycle      */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_1                ((uint8_t)0x0001)  /*!< FLASH One Latency cycle       */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_2                ((uint8_t)0x0002)  /*!< FLASH Two Latency cycles      */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_3                ((uint8_t)0x0003)  /*!< FLASH Three Latency cycles    */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_4                ((uint8_t)0x0004)  /*!< FLASH Four Latency cycles     */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_5                ((uint8_t)0x0005)  /*!< FLASH Five Latency cycles     */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_6                ((uint8_t)0x0006)  /*!< FLASH Six Latency cycles      */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_7                ((uint8_t)0x0007)  /*!< FLASH Seven Latency cycles    */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_8                ((uint8_t)0x0008)  /*!< FLASH Eight Latency cycles    */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_9                ((uint8_t)0x0009)  /*!< FLASH Nine Latency cycles     */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_10               ((uint8_t)0x000A)  /*!< FLASH Ten Latency cycles      */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_11               ((uint8_t)0x000B)  /*!< FLASH Eleven Latency cycles   */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_12               ((uint8_t)0x000C)  /*!< FLASH Twelve Latency cycles   */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_13               ((uint8_t)0x000D)  /*!< FLASH Thirteen Latency cycles */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_14               ((uint8_t)0x000E)  /*!< FLASH Fourteen Latency cycles */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define FLASH_Latency_15               ((uint8_t)0x000F)  /*!< FLASH Fifteen Latency cycles  */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define VoltageRange_1        ((uint8_t)0x00)  /*!< Device operating range: 1.8V to 2.1V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define VoltageRange_2        ((uint8_t)0x01)  /*!<Device operating range: 2.1V to 2.7V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define VoltageRange_3        ((uint8_t)0x02)  /*!<Device operating range: 2.7V to 3.6V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define VoltageRange_4        ((uint8_t)0x03)  /*!<Device operating range: 2.7V to 3.6V + External Vpp */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_PcROP_Disable   ((uint8_t)0x00) /*!< Disabled PcROP, nWPRi bits used for Write Protection on sector i */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_PcROP_Enable    ((uint8_t)0x80) /*!< Enable PcROP, nWPRi bits used for PCRoP Protection on sector i   */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_RDP_Level_0   ((uint8_t)0xAA)
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_RDP_Level_1   ((uint8_t)0x55)
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):/*#define OB_RDP_Level_2   ((uint8_t)0xCC)*/ /*!< Warning: When enabling read protection level 2
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_IWDG_SW                     ((uint8_t)0x20)  /*!< Software IWDG selected */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_IWDG_HW                     ((uint8_t)0x00)  /*!< Hardware IWDG selected */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_STOP_NoRST                  ((uint8_t)0x40) /*!< No reset generated when entering in STOP */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_STOP_RST                    ((uint8_t)0x00) /*!< Reset generated when entering in STOP */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_STDBY_NoRST                 ((uint8_t)0x80) /*!< No reset generated when entering in STANDBY */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_STDBY_RST                   ((uint8_t)0x00) /*!< Reset generated when entering in STANDBY */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_BOR_LEVEL3          ((uint8_t)0x00)  /*!< Supply voltage ranges from 2.70 to 3.60 V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_BOR_LEVEL2          ((uint8_t)0x04)  /*!< Supply voltage ranges from 2.40 to 2.70 V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_BOR_LEVEL1          ((uint8_t)0x08)  /*!< Supply voltage ranges from 2.10 to 2.40 V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_BOR_OFF             ((uint8_t)0x0C)  /*!< Supply voltage ranges from 1.62 to 2.10 V */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_Dual_BootEnabled   ((uint8_t)0x10) /*!< Dual Bank Boot Enable                             */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):#define OB_Dual_BootDisabled  ((uint8_t)0x00) /*!< Dual Bank Boot Disable, always boot on User Flash */
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):FLASH_Status FLASH_EraseSector(uint32_t FLASH_Sector, uint8_t VoltageRange);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):FLASH_Status FLASH_EraseAllSectors(uint8_t VoltageRange);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):FLASH_Status FLASH_EraseAllBank1Sectors(uint8_t VoltageRange);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):FLASH_Status FLASH_EraseAllBank2Sectors(uint8_t VoltageRange);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):FLASH_Status FLASH_ProgramByte(uint32_t Address, uint8_t Data);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):void         FLASH_OB_PCROPSelectionConfig(uint8_t OB_PcROP);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):void         FLASH_OB_RDPConfig(uint8_t OB_RDP);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):void         FLASH_OB_UserConfig(uint8_t OB_IWDG, uint8_t OB_STOP, uint8_t OB_STDBY);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):void         FLASH_OB_BORConfig(uint8_t OB_BOR);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):void         FLASH_OB_BootConfig(uint8_t OB_BOOT);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t      FLASH_OB_GetUser(void);
+Stm32f4xx_flash.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t      FLASH_OB_GetBOR(void);
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t bitstatus = 0x00;
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):    bitstatus = (uint8_t)Bit_SET;
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):    bitstatus = (uint8_t)Bit_RESET;
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):uint8_t GPIO_ReadOutputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t bitstatus = 0x00;
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):    bitstatus = (uint8_t)Bit_SET;
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):    bitstatus = (uint8_t)Bit_RESET;
+Stm32f4xx_gpio.c (library\stm32f4xx_stdperiph_driver\src):void GPIO_PinAFConfig(GPIO_TypeDef* GPIOx, uint16_t GPIO_PinSource, uint8_t GPIO_AF)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource0            ((uint8_t)0x00)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource1            ((uint8_t)0x01)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource2            ((uint8_t)0x02)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource3            ((uint8_t)0x03)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource4            ((uint8_t)0x04)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource5            ((uint8_t)0x05)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource6            ((uint8_t)0x06)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource7            ((uint8_t)0x07)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource8            ((uint8_t)0x08)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource9            ((uint8_t)0x09)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource10           ((uint8_t)0x0A)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource11           ((uint8_t)0x0B)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource12           ((uint8_t)0x0C)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource13           ((uint8_t)0x0D)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource14           ((uint8_t)0x0E)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_PinSource15           ((uint8_t)0x0F)
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_RTC_50Hz      ((uint8_t)0x00)  /* RTC_50Hz Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_MCO           ((uint8_t)0x00)  /* MCO (MCO1 and MCO2) Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TAMPER        ((uint8_t)0x00)  /* TAMPER (TAMPER_1 and TAMPER_2) Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SWJ           ((uint8_t)0x00)  /* SWJ (SWD and JTAG) Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TRACE         ((uint8_t)0x00)  /* TRACE Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM1          ((uint8_t)0x01)  /* TIM1 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM2          ((uint8_t)0x01)  /* TIM2 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM3          ((uint8_t)0x02)  /* TIM3 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM4          ((uint8_t)0x02)  /* TIM4 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM5          ((uint8_t)0x02)  /* TIM5 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM8          ((uint8_t)0x03)  /* TIM8 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM9          ((uint8_t)0x03)  /* TIM9 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM10         ((uint8_t)0x03)  /* TIM10 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM11         ((uint8_t)0x03)  /* TIM11 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_I2C1          ((uint8_t)0x04)  /* I2C1 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_I2C2          ((uint8_t)0x04)  /* I2C2 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_I2C3          ((uint8_t)0x04)  /* I2C3 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SPI1          ((uint8_t)0x05)  /* SPI1/I2S1 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SPI2          ((uint8_t)0x05)  /* SPI2/I2S2 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF5_SPI3         ((uint8_t)0x05)  /* SPI3/I2S3 Alternate Function mapping (Only for STM32F411xE Devices) */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SPI4          ((uint8_t)0x05)  /* SPI4/I2S4 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SPI5          ((uint8_t)0x05)  /* SPI5 Alternate Function mapping      */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SPI6          ((uint8_t)0x05)  /* SPI6 Alternate Function mapping      */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SPI3          ((uint8_t)0x06)  /* SPI3/I2S3 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF6_SPI2         ((uint8_t)0x06)  /* SPI2 Alternate Function mapping (Only for STM32F411xE Devices) */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF6_SPI4         ((uint8_t)0x06)  /* SPI4 Alternate Function mapping (Only for STM32F411xE Devices) */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF6_SPI5         ((uint8_t)0x06)  /* SPI5 Alternate Function mapping (Only for STM32F411xE Devices) */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SAI1          ((uint8_t)0x06)  /* SAI1 Alternate Function mapping      */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_USART1         ((uint8_t)0x07)  /* USART1 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_USART2         ((uint8_t)0x07)  /* USART2 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_USART3         ((uint8_t)0x07)  /* USART3 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF7_SPI3          ((uint8_t)0x07)  /* SPI3/I2S3ext Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_UART4         ((uint8_t)0x08)  /* UART4 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_UART5         ((uint8_t)0x08)  /* UART5 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_USART6        ((uint8_t)0x08)  /* USART6 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_UART7         ((uint8_t)0x08)  /* UART7 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_UART8         ((uint8_t)0x08)  /* UART8 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_CAN1          ((uint8_t)0x09)  /* CAN1 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_CAN2          ((uint8_t)0x09)  /* CAN2 Alternate Function mapping  */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM12         ((uint8_t)0x09)  /* TIM12 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM13         ((uint8_t)0x09)  /* TIM13 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_TIM14         ((uint8_t)0x09)  /* TIM14 Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF9_I2C2         ((uint8_t)0x09)  /* I2C2 Alternate Function mapping (Only for STM32F401xx/STM32F411xE Devices) */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF9_I2C3         ((uint8_t)0x09)  /* I2C3 Alternate Function mapping (Only for STM32F401xx/STM32F411xE Devices) */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_OTG_FS         ((uint8_t)0xA)  /* OTG_FS Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_OTG_HS         ((uint8_t)0xA)  /* OTG_HS Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_ETH             ((uint8_t)0x0B)  /* ETHERNET Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_FSMC             ((uint8_t)0xC)  /* FSMC Alternate Function mapping                     */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_FMC              ((uint8_t)0xC)  /* FMC Alternate Function mapping                      */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_OTG_HS_FS        ((uint8_t)0xC)  /* OTG HS configured in FS, Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_SDIO             ((uint8_t)0xC)  /* SDIO Alternate Function mapping                     */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_DCMI          ((uint8_t)0x0D)  /* DCMI Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_LTDC          ((uint8_t)0x0E)  /* LCD-TFT Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):#define GPIO_AF_EVENTOUT      ((uint8_t)0x0F)  /* EVENTOUT Alternate Function mapping */
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t GPIO_ReadOutputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (library\stm32f4xx_stdperiph_driver\inc):void GPIO_PinAFConfig(GPIO_TypeDef* GPIOx, uint16_t GPIO_PinSource, uint8_t GPIO_AF);
+Stm32f4xx_hash.c (library\stm32f4xx_stdperiph_driver\src):uint8_t HASH_GetInFIFOWordsNbr(void)
+Stm32f4xx_hash.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t i = 0;
+Stm32f4xx_hash.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t i = 0;
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t HASH_GetInFIFOWordsNbr(void);
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus HASH_SHA1(uint8_t *Input, uint32_t Ilen, uint8_t Output[20]);
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus HMAC_SHA1(uint8_t *Key, uint32_t Keylen,
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):                      uint8_t *Input, uint32_t Ilen,
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):                      uint8_t Output[20]);
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus HASH_MD5(uint8_t *Input, uint32_t Ilen, uint8_t Output[16]);
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):ErrorStatus HMAC_MD5(uint8_t *Key, uint32_t Keylen,
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):                     uint8_t *Input, uint32_t Ilen,
+Stm32f4xx_hash.h (library\stm32f4xx_stdperiph_driver\inc):                     uint8_t Output[16]);
+Stm32f4xx_hash_md5.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus HASH_MD5(uint8_t *Input, uint32_t Ilen, uint8_t Output[16])
+Stm32f4xx_hash_md5.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus HMAC_MD5(uint8_t *Key, uint32_t Keylen, uint8_t *Input,
+Stm32f4xx_hash_md5.c (library\stm32f4xx_stdperiph_driver\src):                     uint32_t Ilen, uint8_t Output[16])
+Stm32f4xx_hash_sha1.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus HASH_SHA1(uint8_t *Input, uint32_t Ilen, uint8_t Output[20])
+Stm32f4xx_hash_sha1.c (library\stm32f4xx_stdperiph_driver\src):ErrorStatus HMAC_SHA1(uint8_t *Key, uint32_t Keylen, uint8_t *Input,
+Stm32f4xx_hash_sha1.c (library\stm32f4xx_stdperiph_driver\src):                      uint32_t Ilen, uint8_t Output[20])
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):void I2C_Send7bitAddress(I2C_TypeDef* I2Cx, uint8_t Address, uint8_t I2C_Direction)
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):    Address &= (uint8_t)~((uint8_t)I2C_OAR1_ADD0);
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):void I2C_OwnAddress2Config(I2C_TypeDef* I2Cx, uint8_t Address)
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):void I2C_SendData(I2C_TypeDef* I2Cx, uint8_t Data)
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):uint8_t I2C_ReceiveData(I2C_TypeDef* I2Cx)
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):  return (uint8_t)I2Cx->DR;
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):uint8_t I2C_GetPEC(I2C_TypeDef* I2Cx)
+Stm32f4xx_i2c.c (library\stm32f4xx_stdperiph_driver\src):uint16_t I2C_ReadRegister(I2C_TypeDef* I2Cx, uint8_t I2C_Register)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define  I2C_Direction_Transmitter      ((uint8_t)0x00)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define  I2C_Direction_Receiver         ((uint8_t)0x01)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_CR1                ((uint8_t)0x00)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_CR2                ((uint8_t)0x04)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_OAR1               ((uint8_t)0x08)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_OAR2               ((uint8_t)0x0C)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_DR                 ((uint8_t)0x10)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_SR1                ((uint8_t)0x14)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_SR2                ((uint8_t)0x18)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_CCR                ((uint8_t)0x1C)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):#define I2C_Register_TRISE              ((uint8_t)0x20)
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):void I2C_Send7bitAddress(I2C_TypeDef* I2Cx, uint8_t Address, uint8_t I2C_Direction);
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):void I2C_OwnAddress2Config(I2C_TypeDef* I2Cx, uint8_t Address);
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):void I2C_SendData(I2C_TypeDef* I2Cx, uint8_t Data);
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t I2C_ReceiveData(I2C_TypeDef* I2Cx);
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t I2C_GetPEC(I2C_TypeDef* I2Cx);
+Stm32f4xx_i2c.h (library\stm32f4xx_stdperiph_driver\inc):uint16_t I2C_ReadRegister(I2C_TypeDef* I2Cx, uint8_t I2C_Register);
+Stm32f4xx_iwdg.c (library\stm32f4xx_stdperiph_driver\src):void IWDG_SetPrescaler(uint8_t IWDG_Prescaler)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_4            ((uint8_t)0x00)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_8            ((uint8_t)0x01)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_16           ((uint8_t)0x02)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_32           ((uint8_t)0x03)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_64           ((uint8_t)0x04)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_128          ((uint8_t)0x05)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):#define IWDG_Prescaler_256          ((uint8_t)0x06)
+Stm32f4xx_iwdg.h (library\stm32f4xx_stdperiph_driver\inc):void IWDG_SetPrescaler(uint8_t IWDG_Prescaler);
+Stm32f4xx_ltdc.c (library\stm32f4xx_stdperiph_driver\src):void LTDC_LayerAlpha(LTDC_Layer_TypeDef* LTDC_Layerx, uint8_t ConstantAlpha)
+Stm32f4xx_ltdc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t temp;
+Stm32f4xx_ltdc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t temp;
+Stm32f4xx_ltdc.h (library\stm32f4xx_stdperiph_driver\inc):void LTDC_LayerAlpha(LTDC_Layer_TypeDef* LTDC_Layerx, uint8_t ConstantAlpha);
+Stm32f4xx_pwr.c (library\stm32f4xx_stdperiph_driver\src):void PWR_EnterSTOPMode(uint32_t PWR_Regulator, uint8_t PWR_STOPEntry)
+Stm32f4xx_pwr.c (library\stm32f4xx_stdperiph_driver\src):void PWR_EnterUnderDriveSTOPMode(uint32_t PWR_Regulator, uint8_t PWR_STOPEntry)
+Stm32f4xx_pwr.h (library\stm32f4xx_stdperiph_driver\inc):#define PWR_STOPEntry_WFI               ((uint8_t)0x01)
+Stm32f4xx_pwr.h (library\stm32f4xx_stdperiph_driver\inc):#define PWR_STOPEntry_WFE               ((uint8_t)0x02)
+Stm32f4xx_pwr.h (library\stm32f4xx_stdperiph_driver\inc):void PWR_EnterSTOPMode(uint32_t PWR_Regulator, uint8_t PWR_STOPEntry);
+Stm32f4xx_pwr.h (library\stm32f4xx_stdperiph_driver\inc):void PWR_EnterUnderDriveSTOPMode(uint32_t PWR_Regulator, uint8_t PWR_STOPEntry);
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):#define FLAG_MASK                 ((uint8_t)0x1F)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):void RCC_HSEConfig(uint8_t RCC_HSE)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *) CR_BYTE3_ADDRESS = RCC_HSE_OFF;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *) CR_BYTE3_ADDRESS = RCC_HSE;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):void RCC_AdjustHSICalibrationValue(uint8_t HSICalibrationValue)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):void RCC_LSEConfig(uint8_t RCC_LSE)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *) BDCR_ADDRESS = RCC_LSE_OFF;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *) BDCR_ADDRESS = RCC_LSE_OFF;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):      *(__IO uint8_t *) BDCR_ADDRESS = RCC_LSE_ON;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):      *(__IO uint8_t *) BDCR_ADDRESS = RCC_LSE_Bypass | RCC_LSE_ON;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):uint8_t RCC_GetSYSCLKSource(void)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):  return ((uint8_t)(RCC->CFGR & RCC_CFGR_SWS));
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):void RCC_LSEModeConfig(uint8_t Mode)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):void RCC_ITConfig(uint8_t RCC_IT, FunctionalState NewState)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):    *(__IO uint8_t *) CIR_BYTE2_ADDRESS |= RCC_IT;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):    *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):FlagStatus RCC_GetFlagStatus(uint8_t RCC_FLAG)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):ITStatus RCC_GetITStatus(uint8_t RCC_IT)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):void RCC_ClearITPendingBit(uint8_t RCC_IT)
+Stm32f4xx_rcc.c (library\stm32f4xx_stdperiph_driver\src):  *(__IO uint8_t *) CIR_BYTE3_ADDRESS = RCC_IT;
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_HSE_OFF                      ((uint8_t)0x00)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_HSE_ON                       ((uint8_t)0x01)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_HSE_Bypass                   ((uint8_t)0x05)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_LSE_LOWPOWER_MODE           ((uint8_t)0x00)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_LSE_HIGHDRIVE_MODE          ((uint8_t)0x01)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_LSIRDY                    ((uint8_t)0x01)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_LSERDY                    ((uint8_t)0x02)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_HSIRDY                    ((uint8_t)0x04)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_HSERDY                    ((uint8_t)0x08)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_PLLRDY                    ((uint8_t)0x10)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_PLLI2SRDY                 ((uint8_t)0x20)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_PLLSAIRDY                 ((uint8_t)0x40)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_IT_CSS                       ((uint8_t)0x80)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_RCC_IT(IT) ((((IT) & (uint8_t)0x80) == 0x00) && ((IT) != 0x00))
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_LSE_OFF                      ((uint8_t)0x00)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_LSE_ON                       ((uint8_t)0x01)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_LSE_Bypass                   ((uint8_t)0x04)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_I2S2CLKSource_PLLI2S             ((uint8_t)0x00)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_I2S2CLKSource_Ext                ((uint8_t)0x01)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_TIMPrescDesactivated             ((uint8_t)0x00)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_TIMPrescActivated                ((uint8_t)0x01)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_HSIRDY                  ((uint8_t)0x21)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_HSERDY                  ((uint8_t)0x31)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_PLLRDY                  ((uint8_t)0x39)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_PLLI2SRDY               ((uint8_t)0x3B)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_PLLSAIRDY               ((uint8_t)0x3D)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_LSERDY                  ((uint8_t)0x41)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_LSIRDY                  ((uint8_t)0x61)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_BORRST                  ((uint8_t)0x79)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_PINRST                  ((uint8_t)0x7A)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_PORRST                  ((uint8_t)0x7B)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_SFTRST                  ((uint8_t)0x7C)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_IWDGRST                 ((uint8_t)0x7D)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_WWDGRST                 ((uint8_t)0x7E)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):#define RCC_FLAG_LPWRRST                 ((uint8_t)0x7F)
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):void        RCC_HSEConfig(uint8_t RCC_HSE);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):void        RCC_AdjustHSICalibrationValue(uint8_t HSICalibrationValue);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):void        RCC_LSEConfig(uint8_t RCC_LSE);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t     RCC_GetSYSCLKSource(void);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):void        RCC_LSEModeConfig(uint8_t Mode);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):void        RCC_ITConfig(uint8_t RCC_IT, FunctionalState NewState);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):FlagStatus  RCC_GetFlagStatus(uint8_t RCC_FLAG);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):ITStatus    RCC_GetITStatus(uint8_t RCC_IT);
+Stm32f4xx_rcc.h (library\stm32f4xx_stdperiph_driver\inc):void        RCC_ClearITPendingBit(uint8_t RCC_IT);
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):FlagStatus RNG_GetFlagStatus(uint8_t RNG_FLAG)
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):  if ((RNG->SR & RNG_FLAG) != (uint8_t)RESET)
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):void RNG_ClearFlag(uint8_t RNG_FLAG)
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):ITStatus RNG_GetITStatus(uint8_t RNG_IT)
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):  if ((RNG->SR & RNG_IT) != (uint8_t)RESET)
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):void RNG_ClearITPendingBit(uint8_t RNG_IT)
+Stm32f4xx_rng.c (library\stm32f4xx_stdperiph_driver\src):  RNG->SR = (uint8_t)~RNG_IT;
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):#define RNG_FLAG_DRDY               ((uint8_t)0x0001) /*!< Data ready */
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):#define RNG_FLAG_CECS               ((uint8_t)0x0002) /*!< Clock error current status */
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):#define RNG_FLAG_SECS               ((uint8_t)0x0004) /*!< Seed error current status */
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):#define RNG_IT_CEI                  ((uint8_t)0x20) /*!< Clock error interrupt */
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):#define RNG_IT_SEI                  ((uint8_t)0x40) /*!< Seed error interrupt */
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):#define IS_RNG_IT(IT) ((((IT) & (uint8_t)0x9F) == 0x00) && ((IT) != 0x00))
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):FlagStatus RNG_GetFlagStatus(uint8_t RNG_FLAG);
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):void RNG_ClearFlag(uint8_t RNG_FLAG);
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):ITStatus RNG_GetITStatus(uint8_t RNG_IT);
+Stm32f4xx_rng.h (library\stm32f4xx_stdperiph_driver\inc):void RNG_ClearITPendingBit(uint8_t RNG_IT);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):static uint8_t RTC_ByteToBcd2(uint8_t Value);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):static uint8_t RTC_Bcd2ToByte(uint8_t Value);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC->CR |= (uint8_t)RTC_CR_BYPSHAD;
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC->CR &= (uint8_t)~RTC_CR_BYPSHAD;
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_TimeStruct->RTC_Hours = (uint8_t)((tmpreg & (RTC_TR_HT | RTC_TR_HU)) >> 16);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_TimeStruct->RTC_Minutes = (uint8_t)((tmpreg & (RTC_TR_MNT | RTC_TR_MNU)) >>8);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_TimeStruct->RTC_Seconds = (uint8_t)(tmpreg & (RTC_TR_ST | RTC_TR_SU));
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_TimeStruct->RTC_H12 = (uint8_t)((tmpreg & (RTC_TR_PM)) >> 16);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_TimeStruct->RTC_Hours = (uint8_t)RTC_Bcd2ToByte(RTC_TimeStruct->RTC_Hours);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_TimeStruct->RTC_Minutes = (uint8_t)RTC_Bcd2ToByte(RTC_TimeStruct->RTC_Minutes);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_TimeStruct->RTC_Seconds = (uint8_t)RTC_Bcd2ToByte(RTC_TimeStruct->RTC_Seconds);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_DateStruct->RTC_Year = (uint8_t)((tmpreg & (RTC_DR_YT | RTC_DR_YU)) >> 16);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_DateStruct->RTC_Month = (uint8_t)((tmpreg & (RTC_DR_MT | RTC_DR_MU)) >> 8);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_DateStruct->RTC_Date = (uint8_t)(tmpreg & (RTC_DR_DT | RTC_DR_DU));
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_DateStruct->RTC_WeekDay = (uint8_t)((tmpreg & (RTC_DR_WDU)) >> 13);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_DateStruct->RTC_Year = (uint8_t)RTC_Bcd2ToByte(RTC_DateStruct->RTC_Year);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_DateStruct->RTC_Month = (uint8_t)RTC_Bcd2ToByte(RTC_DateStruct->RTC_Month);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_DateStruct->RTC_Date = (uint8_t)RTC_Bcd2ToByte(RTC_DateStruct->RTC_Date);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampTimeStruct->RTC_Hours = (uint8_t)((tmptime & (RTC_TR_HT | RTC_TR_HU)) >> 16);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampTimeStruct->RTC_Minutes = (uint8_t)((tmptime & (RTC_TR_MNT | RTC_TR_MNU)) >> 8);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampTimeStruct->RTC_Seconds = (uint8_t)(tmptime & (RTC_TR_ST | RTC_TR_SU));
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampTimeStruct->RTC_H12 = (uint8_t)((tmptime & (RTC_TR_PM)) >> 16);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampDateStruct->RTC_Month = (uint8_t)((tmpdate & (RTC_DR_MT | RTC_DR_MU)) >> 8);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampDateStruct->RTC_Date = (uint8_t)(tmpdate & (RTC_DR_DT | RTC_DR_DU));
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  RTC_StampDateStruct->RTC_WeekDay = (uint8_t)((tmpdate & (RTC_DR_WDU)) >> 13);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_StampTimeStruct->RTC_Hours = (uint8_t)RTC_Bcd2ToByte(RTC_StampTimeStruct->RTC_Hours);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_StampTimeStruct->RTC_Minutes = (uint8_t)RTC_Bcd2ToByte(RTC_StampTimeStruct->RTC_Minutes);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_StampTimeStruct->RTC_Seconds = (uint8_t)RTC_Bcd2ToByte(RTC_StampTimeStruct->RTC_Seconds);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_StampDateStruct->RTC_Month = (uint8_t)RTC_Bcd2ToByte(RTC_StampDateStruct->RTC_Month);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_StampDateStruct->RTC_Date = (uint8_t)RTC_Bcd2ToByte(RTC_StampDateStruct->RTC_Date);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):    RTC_StampDateStruct->RTC_WeekDay = (uint8_t)RTC_Bcd2ToByte(RTC_StampDateStruct->RTC_WeekDay);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):static uint8_t RTC_ByteToBcd2(uint8_t Value)
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t bcdhigh = 0;
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  return  ((uint8_t)(bcdhigh << 4) | Value);
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):static uint8_t RTC_Bcd2ToByte(uint8_t Value)
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  uint8_t tmp = 0;
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  tmp = ((uint8_t)(Value & (uint8_t)0xF0) >> (uint8_t)0x4) * 10;
+Stm32f4xx_rtc.c (library\stm32f4xx_stdperiph_driver\src):  return (tmp + (Value & (uint8_t)0x0F));
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_Hours;    /*!< Specifies the RTC Time Hour.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_Minutes;  /*!< Specifies the RTC Time Minutes.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_Seconds;  /*!< Specifies the RTC Time Seconds.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_H12;      /*!< Specifies the RTC AM/PM Time.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_WeekDay; /*!< Specifies the RTC Date WeekDay.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_Month;   /*!< Specifies the RTC Date Month (in BCD format).
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_Date;     /*!< Specifies the RTC Date.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_Year;     /*!< Specifies the RTC Date Year.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t RTC_AlarmDateWeekDay;      /*!< Specifies the RTC Alarm Date/WeekDay.
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_H12_AM                     ((uint8_t)0x00)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_H12_PM                     ((uint8_t)0x40)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_January              ((uint8_t)0x01)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_February             ((uint8_t)0x02)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_March                ((uint8_t)0x03)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_April                ((uint8_t)0x04)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_May                  ((uint8_t)0x05)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_June                 ((uint8_t)0x06)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_July                 ((uint8_t)0x07)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_August               ((uint8_t)0x08)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_September            ((uint8_t)0x09)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_October              ((uint8_t)0x10)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_November             ((uint8_t)0x11)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Month_December             ((uint8_t)0x12)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Monday             ((uint8_t)0x01)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Tuesday            ((uint8_t)0x02)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Wednesday          ((uint8_t)0x03)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Thursday           ((uint8_t)0x04)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Friday             ((uint8_t)0x05)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Saturday           ((uint8_t)0x06)
+Stm32f4xx_rtc.h (library\stm32f4xx_stdperiph_driver\inc):#define RTC_Weekday_Sunday             ((uint8_t)0x07)
+Stm32f4xx_sdio.c (library\stm32f4xx_stdperiph_driver\src):uint8_t SDIO_GetCommandResponse(void)
+Stm32f4xx_sdio.c (library\stm32f4xx_stdperiph_driver\src):  return (uint8_t)(SDIO->RESPCMD);
+Stm32f4xx_sdio.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t SDIO_ClockDiv;              /*!< Specifies the clock frequency of the SDIO controller.
+Stm32f4xx_sdio.h (library\stm32f4xx_stdperiph_driver\inc):uint8_t SDIO_GetCommandResponse(void);
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):uint16_t SPI_GetCRC(SPI_TypeDef* SPIx, uint8_t SPI_CRC)
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):   (+) void SPI_I2S_ITConfig(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT, FunctionalState NewState);
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):   (+) ITStatus SPI_I2S_GetITStatus(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):   (+) void SPI_I2S_ClearITPendingBit(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):void SPI_I2S_ITConfig(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT, FunctionalState NewState)
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):ITStatus SPI_I2S_GetITStatus(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT)
+Stm32f4xx_spi.c (library\stm32f4xx_stdperiph_driver\src):void SPI_I2S_ClearITPendingBit(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_CRC_Tx                      ((uint8_t)0x00)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_CRC_Rx                      ((uint8_t)0x01)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_I2S_IT_TXE                  ((uint8_t)0x71)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_I2S_IT_RXNE                 ((uint8_t)0x60)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_I2S_IT_ERR                  ((uint8_t)0x50)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define I2S_IT_UDR                      ((uint8_t)0x53)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_I2S_IT_TIFRFE               ((uint8_t)0x58)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_I2S_IT_OVR                  ((uint8_t)0x56)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_IT_MODF                     ((uint8_t)0x55)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):#define SPI_IT_CRCERR                   ((uint8_t)0x54)
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):uint16_t SPI_GetCRC(SPI_TypeDef* SPIx, uint8_t SPI_CRC);
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):void SPI_I2S_ITConfig(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT, FunctionalState NewState);
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):ITStatus SPI_I2S_GetITStatus(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
+Stm32f4xx_spi.h (library\stm32f4xx_stdperiph_driver\inc):void SPI_I2S_ClearITPendingBit(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):#define UFB_MODE_BitNumber        ((uint8_t)0x8)
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):#define MII_RMII_SEL_BitNumber    ((uint8_t)0x17)
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):#define CMP_PD_BitNumber          ((uint8_t)0x00)
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):void SYSCFG_MemoryRemapConfig(uint8_t SYSCFG_MemoryRemap)
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):void SYSCFG_EXTILineConfig(uint8_t EXTI_PortSourceGPIOx, uint8_t EXTI_PinSourcex)
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):  tmp = ((uint32_t)0x0F) << (0x04 * (EXTI_PinSourcex & (uint8_t)0x03));
+Stm32f4xx_syscfg.c (library\stm32f4xx_stdperiph_driver\src):  SYSCFG->EXTICR[EXTI_PinSourcex >> 0x02] |= (((uint32_t)EXTI_PortSourceGPIOx) << (0x04 * (EXTI_PinSourcex & (uint8_t)0x03)));
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOA       ((uint8_t)0x00)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOB       ((uint8_t)0x01)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOC       ((uint8_t)0x02)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOD       ((uint8_t)0x03)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOE       ((uint8_t)0x04)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOF       ((uint8_t)0x05)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOG       ((uint8_t)0x06)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOH       ((uint8_t)0x07)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOI       ((uint8_t)0x08)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOJ       ((uint8_t)0x09)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PortSourceGPIOK       ((uint8_t)0x0A)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource0            ((uint8_t)0x00)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource1            ((uint8_t)0x01)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource2            ((uint8_t)0x02)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource3            ((uint8_t)0x03)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource4            ((uint8_t)0x04)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource5            ((uint8_t)0x05)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource6            ((uint8_t)0x06)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource7            ((uint8_t)0x07)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource8            ((uint8_t)0x08)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource9            ((uint8_t)0x09)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource10           ((uint8_t)0x0A)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource11           ((uint8_t)0x0B)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource12           ((uint8_t)0x0C)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource13           ((uint8_t)0x0D)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource14           ((uint8_t)0x0E)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define EXTI_PinSource15           ((uint8_t)0x0F)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define SYSCFG_MemoryRemap_Flash       ((uint8_t)0x00)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define SYSCFG_MemoryRemap_SystemFlash ((uint8_t)0x01)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define SYSCFG_MemoryRemap_SRAM        ((uint8_t)0x03)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define SYSCFG_MemoryRemap_SDRAM       ((uint8_t)0x04)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define SYSCFG_MemoryRemap_FSMC        ((uint8_t)0x02)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):#define SYSCFG_MemoryRemap_FMC         ((uint8_t)0x02)
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):void       SYSCFG_MemoryRemapConfig(uint8_t SYSCFG_MemoryRemap);
+Stm32f4xx_syscfg.h (library\stm32f4xx_stdperiph_driver\inc):void       SYSCFG_EXTILineConfig(uint8_t EXTI_PortSourceGPIOx, uint8_t EXTI_PinSourcex);
+Stm32f4xx_tim.h (library\stm32f4xx_stdperiph_driver\inc):  uint8_t TIM_RepetitionCounter;  /*!< Specifies the repetition counter value. Each time the RCR downcounter
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):    tmpreg |= ((((fractionaldivider * 8) + 50) / 100)) & ((uint8_t)0x07);
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):    tmpreg |= ((((fractionaldivider * 16) + 50) / 100)) & ((uint8_t)0x0F);
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):void USART_SetPrescaler(USART_TypeDef* USARTx, uint8_t USART_Prescaler)
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):void USART_SetAddress(USART_TypeDef* USARTx, uint8_t USART_Address)
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):void USART_SetGuardTime(USART_TypeDef* USARTx, uint8_t USART_GuardTime)
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):  usartreg = (((uint8_t)USART_IT) >> 0x05);
+Stm32f4xx_usart.c (library\stm32f4xx_stdperiph_driver\src):  usartreg = (((uint8_t)USART_IT) >> 0x05);
+Stm32f4xx_usart.h (library\stm32f4xx_stdperiph_driver\inc):void USART_SetPrescaler(USART_TypeDef* USARTx, uint8_t USART_Prescaler);
+Stm32f4xx_usart.h (library\stm32f4xx_stdperiph_driver\inc):void USART_SetAddress(USART_TypeDef* USARTx, uint8_t USART_Address);
+Stm32f4xx_usart.h (library\stm32f4xx_stdperiph_driver\inc):void USART_SetGuardTime(USART_TypeDef* USARTx, uint8_t USART_GuardTime);
+Stm32f4xx_wwdg.c (library\stm32f4xx_stdperiph_driver\src):#define BIT_MASK          ((uint8_t)0x7F)
+Stm32f4xx_wwdg.c (library\stm32f4xx_stdperiph_driver\src):void WWDG_SetWindowValue(uint8_t WindowValue)
+Stm32f4xx_wwdg.c (library\stm32f4xx_stdperiph_driver\src):void WWDG_SetCounter(uint8_t Counter)
+Stm32f4xx_wwdg.c (library\stm32f4xx_stdperiph_driver\src):void WWDG_Enable(uint8_t Counter)
+Stm32f4xx_wwdg.h (library\stm32f4xx_stdperiph_driver\inc):void WWDG_SetWindowValue(uint8_t WindowValue);
+Stm32f4xx_wwdg.h (library\stm32f4xx_stdperiph_driver\inc):void WWDG_SetCounter(uint8_t Counter);
+Stm32f4xx_wwdg.h (library\stm32f4xx_stdperiph_driver\inc):void WWDG_Enable(uint8_t Counter);
+System_stm32f4xx.c (library\cmsis\device\st\stm32f4xx\source\templates):__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+Ymodem.c (drives):extern uint8_t file_name[FILE_NAME_LENGTH];
+Ymodem.c (drives):static  int32_t Receive_Byte (uint8_t *c, uint32_t timeout)
+Ymodem.c (drives):static uint32_t Send_Byte (uint8_t c)
+Ymodem.c (drives):static int32_t Receive_Packet (uint8_t *data, int32_t *length, uint32_t timeout)
+Ymodem.c (drives):  uint8_t c;
+Ymodem.c (drives):int32_t Ymodem_Receive (uint8_t *buf)
+Ymodem.c (drives):  uint8_t packet_data[PACKET_1K_SIZE + PACKET_OVERHEAD], file_size[FILE_SIZE_LENGTH], *file_ptr, *buf_ptr;
+Ymodem.c (drives):                    if (drives_flash_packet_write_t((uint8_t*)buf,packet_length,packets_received) == 0) {
+Ymodem.c (drives):int32_t Ymodem_CheckResponse(uint8_t c)
+Ymodem.c (drives):void Ymodem_PrepareIntialPacket(uint8_t *data, const uint8_t* fileName, uint32_t *length)
+Ymodem.c (drives):  uint8_t file_ptr[10];
+Ymodem.c (drives):void Ymodem_PreparePacket(uint8_t *SourceBuf, uint8_t *data, uint8_t pktNo, uint32_t sizeBlk)
+Ymodem.c (drives):  uint8_t* file_ptr;
+Ymodem.c (drives):uint16_t UpdateCRC16(uint16_t crcIn, uint8_t byte)
+Ymodem.c (drives):uint16_t Cal_CRC16(const uint8_t* data, uint32_t size)
+Ymodem.c (drives):  const uint8_t* dataEnd = data+size;
+Ymodem.c (drives):uint8_t CalChecksum(const uint8_t* data, uint32_t size)
+Ymodem.c (drives):  const uint8_t* dataEnd = data+size;
+Ymodem.c (drives):void Ymodem_SendPacket(uint8_t *data, uint16_t length)
+Ymodem.c (drives):uint8_t Ymodem_Transmit (uint8_t *buf, const uint8_t* sendFileName, uint32_t sizeFile)
+Ymodem.c (drives):  uint8_t packet_data[PACKET_1K_SIZE + PACKET_OVERHEAD];
+Ymodem.c (drives):  uint8_t filename[FILE_NAME_LENGTH];
+Ymodem.c (drives):  uint8_t *buf_ptr, tempCheckSum;
+Ymodem.c (drives):  uint8_t receivedC[2], CRC16_F = 0, i;
+Ymodem.h (include):int32_t Ymodem_Receive (uint8_t *);
+Ymodem.h (include):uint8_t Ymodem_Transmit (uint8_t *,const  uint8_t* , uint32_t );
