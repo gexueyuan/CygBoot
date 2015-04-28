@@ -4,15 +4,9 @@
 *.obj
 *.elf
 
-# Precompiled Headers
-*.gch
-*.pch
-
 # Libraries
 *.lib
 *.a
-*.la
-*.lo
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -28,5 +22,63 @@
 *.x86_64
 *.hex
 
-# Debug files
-*.dSYM/
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+.svn/
+*.bin
+*.d
+*.txt
+*.iex
+*.crf
+*.lst
+*.map
+*.axf
+*.htm
+*.bak
+*.dep
+*.sct
+*.GXY
+*.Gexueyuan
+*.lnp
+prj_si/
+*.ini
+*.wangyifeng
+/bin
+\library\STM32F4xx_Libraries\STM32F4xx_StdPeriph_Driver\prj_lib\keil
